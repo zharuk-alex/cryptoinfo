@@ -1,0 +1,17 @@
+@import "bootstrap/scss/bootstrap";
+main{
+  @extend .col-8;
+}
+.ticker{
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  text-align: center;
+  background-color: lighten(blue, 30);
+}
+.coin-cost{
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}

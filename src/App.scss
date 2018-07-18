@@ -1,0 +1,17 @@
+@import "bootstrap/scss/bootstrap";
+
+.App{
+  @extend .container;
+}
+.wrapper{
+  @extend .row;
+}
+aside{
+  // @extend .col-lg-4;
+  background-color: lighten(grey, 30);
+  width: 300px;
+  .currList{
+    list-style: none;
+    padding: 10px 0px;
+  }
+}

@@ -1,0 +1,9 @@
+.currList{
+  max-height: 90vh;
+  overflow-y: scroll;
+  padding: 0px;
+  margin: 10px 0;
+}
+.currList li{
+  cursor: pointer;
+}
